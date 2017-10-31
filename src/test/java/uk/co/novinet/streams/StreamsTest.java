@@ -15,7 +15,7 @@ public class StreamsTest {
 	}
 	
 	@Test
-	public void testFilterAndCount() {
+	public void testFilterAndCountReturnsTwoWhenPredicateIdentifiesStringsThatStartWithAnA() {
 		assertEquals(2, streams.filterAndCount(asList("a", "ab", "ba", "bb"), (string) -> string.startsWith("a")));
 	}
 }
