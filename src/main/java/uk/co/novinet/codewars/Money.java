@@ -1,4 +1,4 @@
-package uk.co.novinet.mrscrouge;
+package uk.co.novinet.codewars;
 
 /*
 	www.codewars.com

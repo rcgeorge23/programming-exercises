@@ -1,8 +1,10 @@
-package uk.co.novinet.mrscrouge;
+package uk.co.novinet.codewars;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import uk.co.novinet.codewars.Money;
 
 public class MoneyTest {
 
